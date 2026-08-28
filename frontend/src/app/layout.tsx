@@ -23,6 +23,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <div className="bg-gray-900 text-white flex flex-row">
+        <div className="p-4 content-center">
+          <h1 className="text-2xl font-bold p-4">BusinessOS</h1>
+        </div>
+        <nav className="p-4 bg-gray-800 flex items-center justify-center">
+          <a href="/dashboard" className="text-white hover:underline">
+            Dashboard
+          </a>
+        </nav>
+      </div>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
