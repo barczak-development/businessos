@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+.venv/
+venv/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Python generated files and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
